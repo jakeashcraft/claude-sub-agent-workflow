@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/jakeashcraft/claude-sub-agent/blob/main/README.md
+    about: Read the comprehensive documentation and usage guides
+  - name: 💬 GitHub Discussions
+    url: https://github.com/jakeashcraft/claude-sub-agent/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔧 Claude Code Documentation
+    url: https://docs.anthropic.com/en/docs/claude-code
+    about: Official Claude Code documentation and sub-agents guide

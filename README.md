@@ -1,6 +1,23 @@
 # Claude Sub-Agent Spec Workflow System
 
-A comprehensive context-aware AI-driven development workflow system built on Claude Code's Sub-Agents feature, specifically designed for `manufacturing industry applications`. This system transforms manufacturing project ideas into production-ready .NET 9 applications through specialized AI agents working in coordinated phases with intelligent iteration management, optimized for compliance, integration, and multi-facility deployment scenarios.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![.NET 9](https://img.shields.io/badge/.NET-9-purple.svg)](https://dotnet.microsoft.com/)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Sub--Agents-green.svg)](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+[![Manufacturing](https://img.shields.io/badge/Industry-Manufacturing-orange.svg)](https://github.com/jakeashcraft/claude-sub-agent)
+[![Azure](https://img.shields.io/badge/Cloud-Azure-blue.svg)](https://azure.microsoft.com/)
+[![Clean Architecture](https://img.shields.io/badge/Architecture-Clean-lightblue.svg)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+A comprehensive context-aware AI-driven development workflow system built on Claude Code's Sub-Agents feature, specifically designed for **manufacturing industry applications**. This system transforms manufacturing project ideas into production-ready .NET 9 applications through specialized AI agents working in coordinated phases with intelligent iteration management, optimized for compliance, integration, and multi-facility deployment scenarios.
+
+## ⭐ Why This Workflow System?
+
+- **🏭 Manufacturing-First Design**: Built specifically for manufacturing software requirements
+- **🧠 Context-Aware Intelligence**: Reads existing project state to avoid unnecessary regeneration  
+- **⚡ 70% Token Reduction**: Intelligent agent selection for iterative development
+- **📁 Organized Documentation**: Structured hierarchy prevents document chaos
+- **🛡️ Compliance Ready**: Built-in FDA, HACCP, and ISO compliance patterns
+- **🔗 Integration Patterns**: Ready-to-use MES, SCADA, and ERP integration
+- **☁️ Azure-Optimized**: Production-ready Azure deployment configurations
 
 ## Table of Contents
 
@@ -626,13 +643,25 @@ If you're migrating from the original workflow system:
 
 ## Contributing
 
-We welcome contributions to improve the context-aware workflow system:
+[![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+We welcome contributions to improve the context-aware workflow system! See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Quick Contribution Guide
 1. Follow .NET coding standards and Clean Architecture principles
 2. Add comprehensive documentation with examples
 3. Include context-aware behavior in new agents
 4. Test with the enhanced orchestrator
 5. Submit PR with detailed description of improvements
+
+### Ways to Contribute
+- 🐛 **Bug Reports**: Help us identify and fix issues
+- ✨ **Feature Requests**: Suggest new capabilities
+- 🤖 **New Agents**: Create specialized agents for specific domains
+- 🏭 **Manufacturing Use Cases**: Share industry-specific scenarios
+- 📚 **Documentation**: Improve guides and examples
+- 🧪 **Testing**: Add test coverage and validation scenarios
 
 ## License
 
@@ -645,16 +674,33 @@ MIT License - see LICENSE file for details
 - Inspired by enterprise software development best practices
 - Community contributions from manufacturing industry specialists
 
+## 📊 Project Stats
+
+[![GitHub stars](https://img.shields.io/github/stars/jakeashcraft/claude-sub-agent.svg?style=social&label=Star)](https://github.com/jakeashcraft/claude-sub-agent)
+[![GitHub forks](https://img.shields.io/github/forks/jakeashcraft/claude-sub-agent.svg?style=social&label=Fork)](https://github.com/jakeashcraft/claude-sub-agent/fork)
+[![GitHub issues](https://img.shields.io/github/issues/jakeashcraft/claude-sub-agent.svg)](https://github.com/jakeashcraft/claude-sub-agent/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/jakeashcraft/claude-sub-agent.svg)](https://github.com/jakeashcraft/claude-sub-agent/pulls)
+
+## 🔗 Quick Links
+
+**📚 Documentation & Learning**
+- [📖 Examples Directory](examples/) - Practical workflow examples
+- [🤝 Contributing Guide](CONTRIBUTING.md) - How to contribute
+- [📋 Changelog](CHANGELOG.md) - Version history and updates
+- [❓ FAQ & Discussions](https://github.com/jakeashcraft/claude-sub-agent/discussions)
+
+**🔧 Development Resources**
+- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code) - Official Claude Code docs
+- [Sub-Agents Guide](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - Sub-agents feature guide
+- [.NET 9 Documentation](https://docs.microsoft.com/en-us/dotnet/) - Microsoft .NET documentation
+- [Clean Architecture Guide](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Architecture principles
+
+**🐛 Support & Issues**
+- [🐛 Report Issues](https://github.com/jakeashcraft/claude-sub-agent/issues/new/choose) - Bug reports and feature requests
+- [💬 GitHub Discussions](https://github.com/jakeashcraft/claude-sub-agent/discussions) - Community discussions
+- [📧 Contact](https://github.com/jakeashcraft) - Direct contact with maintainer
+
 ---
-
-For more information, see:
-
-**Development Resources:**
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Sub-Agents Guide](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- [.NET 9 Documentation](https://docs.microsoft.com/en-us/dotnet/)
-- [Clean Architecture Principles](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- [Project Issues](https://github.com/jakeashcraft/claude-sub-agent/issues)
 
 **Manufacturing Compliance Standards:**
 - [FDA 21 CFR Part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) - Electronic Records and Electronic Signatures
