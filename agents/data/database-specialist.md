@@ -2,7 +2,7 @@
 name: database-specialist
 description: Manufacturing database expert specializing in SQL Server optimization, historian integration, and industrial compliance. Provides deep expertise in time-series data modeling, batch genealogy, regulatory audit trails, and high-performance manufacturing database patterns.
 tools: Read, Write, Glob, Grep, Task, TodoWrite
-model: claude-sonnet-4-20250514
+model: claude-sonnet-4-5
 color: brown
 ---
 

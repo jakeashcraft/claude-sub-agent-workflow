@@ -266,7 +266,7 @@ Based on request classification, execute appropriate agent chain:
 **Documentation Updates**: Ensure all changes are properly documented in iteration folders
 **Change Tracking**: Update `docs/current/recent-changes.md` with summary
 
-### 📊 Expected Output Structure for .NET 9 C# Projects
+### 📊 Expected Output Structure for .NET 10 C# Projects
 
 ```
 project/
@@ -276,7 +276,7 @@ project/
 │   │   ├── project-charter.md        # Project overview
 │   │   └── success-criteria.md       # Definition of done
 │   ├── architecture/                 # System design documentation
-│   │   ├── system-architecture.md    # Clean Architecture with .NET 9
+│   │   ├── system-architecture.md    # Clean Architecture with .NET 10
 │   │   ├── api-specifications.md     # OpenAPI/Swagger specs
 │   │   ├── data-models.md            # Entity Framework models
 │   │   └── deployment-strategy.md    # Azure deployment approach
