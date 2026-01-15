@@ -44,7 +44,7 @@ List any agents that were created or modified:
 - [ ] GMP/cGMP
 - [ ] Other: [specify]
 
-## .NET 9 Enhancements (if applicable)
+## .NET 10 Enhancements (if applicable)
 - [ ] Clean Architecture compliance
 - [ ] Entity Framework Core optimization
 - [ ] ASP.NET Core enhancement
@@ -181,7 +181,7 @@ Please verify (if applicable):
 
 ### For Technical Reviewers
 Please verify:
-- [ ] .NET 9 best practices followed
+- [ ] .NET 10 best practices followed
 - [ ] Clean Architecture principles maintained
 - [ ] Security considerations addressed
 - [ ] Performance implications assessed

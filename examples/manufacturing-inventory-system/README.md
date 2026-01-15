@@ -1,6 +1,6 @@
 # Manufacturing Inventory System Example
 
-This example demonstrates creating a complete .NET 9 manufacturing inventory management system using the context-aware workflow system. This represents a **NEW_PROJECT** workflow with full agent chain execution.
+This example demonstrates creating a complete .NET 10 manufacturing inventory management system using the context-aware workflow system. This represents a **NEW_PROJECT** workflow with full agent chain execution.
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ This example demonstrates creating a complete .NET 9 manufacturing inventory man
 ## Initial Request
 
 ```bash
-/agent-workflow "Create a .NET 9 Web API for manufacturing inventory management with Clean Architecture, Entity Framework Core, real-time SignalR updates, Azure deployment, role-based security, and integration points for MES and ERP systems. Include FDA compliance audit trails and multi-facility support."
+/agent-workflow "Create a .NET 10 Web API for manufacturing inventory management with Clean Architecture, Entity Framework Core, real-time SignalR updates, Azure deployment, role-based security, and integration points for MES and ERP systems. Include FDA compliance audit trails and multi-facility support."
 ```
 
 ## Agent Execution Summary
@@ -40,7 +40,7 @@ This example demonstrates creating a complete .NET 9 manufacturing inventory man
 
 ### 3. spec-architect (20 minutes)
 - **Architecture Design**: Clean Architecture with manufacturing-specific layers
-- **Technology Selection**: .NET 9, EF Core, SignalR, Azure services
+- **Technology Selection**: .NET 10, EF Core, SignalR, Azure services
 - **Integration Strategy**: MES/ERP integration patterns, API design
 - **Security Design**: Azure AD B2C, role-based access, facility-based permissions
 
@@ -207,7 +207,7 @@ manufacturing-inventory-system/
 - **Document Management**: Controlled document versioning
 
 ### Technical Implementation
-- **.NET 9**: Latest framework with modern C# 13 features
+- **.NET 10**: Latest framework with modern C# 14 features
 - **Clean Architecture**: Proper separation of concerns and dependencies
 - **Entity Framework Core**: Optimized data access with migrations
 - **SignalR**: Real-time web connectivity for live updates
@@ -266,7 +266,7 @@ manufacturing-inventory-system/
 
 ### Technical Best Practices
 1. **Clean Architecture**: Proper dependency flow and layer separation
-2. **Modern .NET**: Latest C# 13 features and performance optimizations
+2. **Modern .NET**: Latest C# 14 features and performance optimizations
 3. **Entity Framework**: Optimized queries and migration strategies
 4. **Security**: Industry-standard authentication and authorization
 5. **Testing**: Comprehensive test coverage with realistic scenarios

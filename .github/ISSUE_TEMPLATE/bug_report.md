@@ -13,7 +13,7 @@ A clear and concise description of what the bug is.
 - **Claude Code Version**: [e.g., latest, v1.2.3]
 - **Operating System**: [e.g., Windows 11, macOS Monterey, Ubuntu 22.04]
 - **Project Type**: [e.g., NEW_PROJECT, BUG_FIX, ENHANCEMENT, REFACTOR]
-- **.NET Version**: [e.g., .NET 9.0, .NET 8.0, N/A]
+- **.NET Version**: [e.g., .NET 10.0, .NET 8.0, N/A]
 - **Agent Used**: [e.g., spec-orchestrator, spec-developer, database-specialist]
 
 ## Steps to Reproduce

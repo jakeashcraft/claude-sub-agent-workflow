@@ -33,7 +33,7 @@ Describe the specific knowledge and capabilities this agent would provide:
 - **System Types**: [e.g., MES, SCADA, ERP, Historian]
 - **Process Types**: [e.g., batch processing, continuous manufacturing, discrete manufacturing]
 
-### .NET 9 Specialization (if applicable)
+### .NET 10 Specialization (if applicable)
 - **Architecture Patterns**: [e.g., Clean Architecture, CQRS, Event Sourcing]
 - **Technology Stack**: [e.g., ASP.NET Core, Entity Framework, SignalR]
 - **Azure Services**: [e.g., App Service, AKS, Key Vault, Application Insights]

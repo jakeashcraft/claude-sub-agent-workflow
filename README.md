@@ -1,13 +1,13 @@
 # Claude Sub-Agent Spec Workflow System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![.NET 9](https://img.shields.io/badge/.NET-9-purple.svg)](https://dotnet.microsoft.com/)
+[![.NET 10](https://img.shields.io/badge/.NET-10-purple.svg)](https://dotnet.microsoft.com/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Sub--Agents-green.svg)](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 [![Manufacturing](https://img.shields.io/badge/Industry-Manufacturing-orange.svg)](https://github.com/jakeashcraft/claude-sub-agent)
 [![Azure](https://img.shields.io/badge/Cloud-Azure-blue.svg)](https://azure.microsoft.com/)
 [![Clean Architecture](https://img.shields.io/badge/Architecture-Clean-lightblue.svg)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-A comprehensive context-aware AI-driven development workflow system built on Claude Code's Sub-Agents feature, specifically designed for **manufacturing industry applications**. This system transforms manufacturing project ideas into production-ready .NET 9 applications through specialized AI agents working in coordinated phases with intelligent iteration management, optimized for compliance, integration, and multi-facility deployment scenarios.
+A comprehensive context-aware AI-driven development workflow system built on Claude Code's Sub-Agents feature, specifically designed for **manufacturing industry applications**. This system transforms manufacturing project ideas into production-ready .NET 10 applications through specialized AI agents working in coordinated phases with intelligent iteration management, optimized for compliance, integration, and multi-facility deployment scenarios.
 
 ## ⭐ Why This Workflow System?
 
@@ -36,7 +36,7 @@ A comprehensive context-aware AI-driven development workflow system built on Cla
 
 ## Overview
 
-The Spec Workflow System leverages Claude Code's Sub-Agents capability to create a context-aware, multi-agent development pipeline optimized for .NET 9 manufacturing applications. Each agent is a specialized expert that understands existing project state, manufacturing domain requirements, and compliance needs while handling specific aspects of the industrial software development lifecycle.
+The Spec Workflow System leverages Claude Code's Sub-Agents capability to create a context-aware, multi-agent development pipeline optimized for .NET 10 manufacturing applications. Each agent is a specialized expert that understands existing project state, manufacturing domain requirements, and compliance needs while handling specific aspects of the industrial software development lifecycle.
 
 ### Key Features
 
@@ -46,7 +46,7 @@ The Spec Workflow System leverages Claude Code's Sub-Agents capability to create
 - **Organized Documentation**: Structured folder hierarchy prevents document chaos
 - **Token Efficiency**: Minimal token usage through intelligent agent selection
 - **Iterative Development**: Supports continuous improvement without starting from scratch
-- **.NET 9 Manufacturing Stack**: Specialized for Clean Architecture, Entity Framework Core, and Azure deployment
+- **.NET 10 Manufacturing Stack**: Specialized for Clean Architecture, Entity Framework Core, and Azure deployment
 - **Quality Gates**: Automated checkpoints with manufacturing-specific validation criteria
 
 ### Benefits
@@ -55,7 +55,7 @@ The Spec Workflow System leverages Claude Code's Sub-Agents capability to create
 - 70% reduction in token usage for iterative development
 - Context-aware agent selection prevents unnecessary work
 - Maintains project history through versioned iterations
-- Optimized for .NET 9, Clean Architecture, and Azure deployment
+- Optimized for .NET 10, Clean Architecture, and Azure deployment
 - Built-in support for manufacturing compliance standards (FDA, HACCP, ISO)
 - Specialized patterns for MES, SCADA, and ERP system integration
 - Multi-facility deployment and configuration management
@@ -117,7 +117,7 @@ graph TD
 
 - Claude Code (latest version with Sub-Agents support)
 - Project directory initialized
-- .NET 9 SDK (for .NET projects)
+- .NET 10 SDK (for .NET projects)
 - Basic understanding of AI-assisted development
 
 ### Setup Steps
@@ -166,12 +166,12 @@ graph TD
    │   ├── commands/
    │   │   └── agent-workflow.md      # Enhanced context-aware workflow
    │   ├── agents/
-   │   │   ├── spec-orchestrator.md   # .NET 9 Context-aware orchestrator
+   │   │   ├── spec-orchestrator.md   # .NET 10 Context-aware orchestrator
    │   │   ├── spec-analyst.md        # Requirements analyst
-   │   │   ├── spec-architect.md      # .NET 9 system architect
-   │   │   ├── spec-developer.md      # .NET 9 implementation specialist
-   │   │   ├── spec-validator.md      # .NET 9 quality validator
-   │   │   ├── spec-tester.md         # .NET 9 testing specialist
+   │   │   ├── spec-architect.md      # .NET 10 system architect
+   │   │   ├── spec-developer.md      # .NET 10 implementation specialist
+   │   │   ├── spec-validator.md      # .NET 10 quality validator
+   │   │   ├── spec-tester.md         # .NET 10 testing specialist
    │   │   └── ...                    # Other specialized agents
    │   └── docs/                      # Organized documentation structure
    │       ├── project/               # Core project docs (stable)
@@ -179,7 +179,7 @@ graph TD
    │       ├── iterations/            # Version-controlled iterations
    │       ├── current/               # Active working state
    │       └── archive/               # Completed work
-   ├── src/                           # .NET 9 source code
+   ├── src/                           # .NET 10 source code
    ├── tests/                         # xUnit test projects
    ├── CLAUDE.md                      # Enhanced project guidance
    └── README.md                      # This file
@@ -191,7 +191,7 @@ graph TD
 
 ```bash
 # For a new project
-/agent-workflow "Create a .NET 9 Web API for managing inventory with Clean Architecture"
+/agent-workflow "Create a .NET 10 Web API for managing inventory with Clean Architecture"
 
 # For bug fixes on existing projects
 /agent-workflow "The user login is failing with valid credentials"
@@ -332,12 +332,12 @@ All agents now include:
 - **Context Awareness**: Read existing project state before starting work
 - **Incremental Updates**: Update existing documents rather than recreate
 - **Iteration Management**: Organize work into versioned iterations  
-- **.NET 9 Optimization**: Specialized knowledge of .NET 9, Clean Architecture, EF Core
+- **.NET 10 Optimization**: Specialized knowledge of .NET 10, Clean Architecture, EF Core
 - **Azure Integration**: Deployment-ready configurations for Azure App Service/AKS
 
-### Core Workflow Agents (.NET 9 Enhanced)
+### Core Workflow Agents (.NET 10 Enhanced)
 
-| Agent | Purpose | Context-Aware Features | .NET 9 Specialization |
+| Agent | Purpose | Context-Aware Features | .NET 10 Specialization |
 |-------|---------|----------------------|---------------------|
 | spec-orchestrator | Workflow coordination & request classification | Analyzes existing docs, selects optimal agent chain | .NET project structure, quality gates |
 | spec-analyst | Requirements analysis | Updates existing requirements incrementally | C# domain modeling, user stories |
@@ -360,16 +360,16 @@ Each agent contributes to .NET-specific quality metrics:
 
 ## Usage Examples
 
-### Example 1: New .NET 9 Enterprise Application
+### Example 1: New .NET 10 Enterprise Application
 
 ```bash
-/agent-workflow "Create a .NET 9 enterprise application for managing manufacturing processes across 5 US facilities with Entra authentication and role-based access control, real-time monitoring, and Azure deployment"
+/agent-workflow "Create a .NET 10 enterprise application for managing manufacturing processes across 5 US facilities with Entra authentication and role-based access control, real-time monitoring, and Azure deployment"
 
 # Expected behavior:
 # - Classification: NEW_PROJECT
 # - Full agent chain executed
 # - Complete documentation structure created
-# - Clean Architecture with .NET 9
+# - Clean Architecture with .NET 10
 # - Entity Framework Core for data access  
 # - Azure App Service deployment configuration
 # - Comprehensive test suite with xUnit
@@ -436,7 +436,7 @@ Each agent contributes to .NET-specific quality metrics:
 
 ## Quality Gates
 
-### .NET 9 Specific Quality Gates
+### .NET 10 Specific Quality Gates
 
 #### Gate 1: Planning Quality (95% threshold)
 - Requirements completeness and .NET alignment
@@ -476,7 +476,7 @@ Quality gates now consider project context:
 - **Review Iterations**: Check iteration folders to understand project evolution
 - **Maintain Clean State**: Keep current/ folder updated with active work
 
-### 2. .NET 9 Development
+### 2. .NET 10 Development
 
 - **Follow Clean Architecture**: Use the established layer patterns
 - **Entity Framework Best Practices**: Leverage EF Core optimizations
@@ -597,7 +597,7 @@ jobs:
    /agent-workflow "Fix authentication bug" --agents="spec-developer,spec-validator"
    ```
 
-### .NET 9 Specific Issues
+### .NET 10 Specific Issues
 
 1. **Clean Architecture Violations**
    - Check validation reports in iterations/
@@ -670,7 +670,7 @@ MIT License - see LICENSE file for details
 ## Acknowledgments
 
 - Built on Claude Code's Sub-Agents feature
-- Optimized for .NET 9 and Clean Architecture patterns
+- Optimized for .NET 10 and Clean Architecture patterns
 - Inspired by enterprise software development best practices
 - Community contributions from manufacturing industry specialists
 
@@ -692,7 +692,7 @@ MIT License - see LICENSE file for details
 **🔧 Development Resources**
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code) - Official Claude Code docs
 - [Sub-Agents Guide](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - Sub-agents feature guide
-- [.NET 9 Documentation](https://docs.microsoft.com/en-us/dotnet/) - Microsoft .NET documentation
+- [.NET 10 Documentation](https://docs.microsoft.com/en-us/dotnet/) - Microsoft .NET documentation
 - [Clean Architecture Guide](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Architecture principles
 
 **🐛 Support & Issues**

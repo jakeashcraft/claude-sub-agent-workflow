@@ -1,21 +1,21 @@
 # Agent Directory Structure
 
-This directory contains specialized AI agents for the Claude Sub-Agent context-aware workflow system, optimized for .NET 9 development with Clean Architecture patterns and Azure deployment scenarios.
+This directory contains specialized AI agents for the Claude Sub-Agent context-aware workflow system, optimized for .NET 10 development with Clean Architecture patterns and Azure deployment scenarios.
 
 ## Directory Organization
 
 ```
 agents/
 ├── spec-agents/                      # Context-aware spec workflow agents
-│   ├── spec-orchestrator.md          # .NET 9 context-aware workflow coordinator
+│   ├── spec-orchestrator.md          # .NET 10 context-aware workflow coordinator
 │   ├── spec-analyst.md               # C# requirements analysis specialist  
 │   ├── spec-architect.md             # Clean Architecture system designer
-│   ├── spec-developer.md             # .NET 9 implementation specialist
+│   ├── spec-developer.md             # .NET 10 implementation specialist
 │   ├── spec-validator.md             # .NET quality validation expert
 │   └── spec-tester.md                # xUnit comprehensive testing expert
 │
 ├── backend/                          # .NET backend specialized agents
-│   └── senior-backend-architect.md   # .NET 9 backend systems & microservices expert
+│   └── senior-backend-architect.md   # .NET 10 backend systems & microservices expert
 │
 ├── frontend/                         # .NET frontend specialized agents  
 │   └── senior-frontend-architect.md  # Blazor Server/WebAssembly expert
@@ -34,7 +34,7 @@ agents/
 The core workflow system that provides intelligent, context-aware development lifecycle management:
 
 #### Request Type Classification & Routing
-- **NEW_PROJECT**: Full workflow chain for greenfield .NET 9 projects
+- **NEW_PROJECT**: Full workflow chain for greenfield .NET 10 projects
 - **BUG_FIX**: Targeted chain (analysis → fixes → regression testing)
 - **ENHANCEMENT**: Selective chain (requirements → architecture if needed → implementation)
 - **REFACTOR**: Optimization chain (architecture review → code improvement → validation)
@@ -63,12 +63,12 @@ All agents work with structured documentation:
 - **current/**: Active state tracking (tasks, issues, recent changes)
 - **archive/**: Historical documentation
 
-### 2. .NET 9 Domain Specialists
+### 2. .NET 10 Domain Specialists
 
 Expert agents optimized for Microsoft technology stack and enterprise manufacturing environments:
 
 #### Backend Specialists
-- **senior-backend-architect**: .NET 9 backend systems, Clean Architecture, Entity Framework Core, Azure services integration, microservices patterns for multi-facility deployments
+- **senior-backend-architect**: .NET 10 backend systems, Clean Architecture, Entity Framework Core, Azure services integration, microservices patterns for multi-facility deployments
 
 #### Frontend Specialists  
 - **senior-frontend-architect**: Blazor Server/WebAssembly, SignalR real-time updates, component libraries, dashboard design
@@ -119,10 +119,10 @@ Use spec-architect: Review existing Clean Architecture and recommend improvement
 Use spec-developer: Implement the authentication fixes following existing code patterns and architecture
 
 # Quality validation with .NET focus
-Use spec-validator: Evaluate the recent changes against .NET 9 best practices and Azure deployment readiness
+Use spec-validator: Evaluate the recent changes against .NET 10 best practices and Azure deployment readiness
 ```
 
-## .NET 9 Quality Gates
+## .NET 10 Quality Gates
 
 The workflow includes three quality gates with .NET-specific criteria:
 
@@ -218,7 +218,7 @@ graph TD
 - **Use Iteration Folders**: Each significant change gets its own versioned folder
 - **Maintain Current State**: Keep active tasks and issues updated in current/ folder
 
-### 2. .NET 9 Development Excellence
+### 2. .NET 10 Development Excellence
 - **Follow Clean Architecture**: Maintain proper layer separation and dependency flow
 - **Entity Framework Best Practices**: Use proper change tracking, query optimization, migrations
 - **Modern C# Patterns**: Leverage records, pattern matching, nullable reference types consistently
@@ -259,7 +259,7 @@ When adding new agents to the system:
 
 ### Requirements
 1. **Context Awareness**: Agent must read existing project state from `docs/` structure
-2. **.NET 9 Specialization**: Include C# 13, Clean Architecture, Entity Framework Core expertise
+2. **.NET 10 Specialization**: Include C# 14, Clean Architecture, Entity Framework Core expertise
 3. **Incremental Updates**: Update existing documents rather than recreate
 4. **Manufacturing Context**: Consider multi-facility deployment and compliance requirements
 5. **Quality Integration**: Support enhanced quality gate criteria and scoring
@@ -268,11 +268,11 @@ When adding new agents to the system:
 ```markdown
 ---
 name: agent-name
-description: Context-aware specialist for [domain] with .NET 9 optimization
+description: Context-aware specialist for [domain] with .NET 10 optimization
 tools: Read, Write, Edit, Glob, Grep, TodoWrite
 ---
 
-# Agent Name - .NET 9 Context-Aware Specialist
+# Agent Name - .NET 10 Context-Aware Specialist
 
 ## Context Awareness
 - Read existing docs/ structure
@@ -280,10 +280,10 @@ tools: Read, Write, Edit, Glob, Grep, TodoWrite
 - Classify request type and scope
 - Update documentation incrementally
 
-## .NET 9 Specialization
+## .NET 10 Specialization
 - Clean Architecture patterns
 - Entity Framework Core best practices  
-- Modern C# 13 features
+- Modern C# 14 features
 - Azure deployment optimization
 - Azure AD integration
 
@@ -293,6 +293,6 @@ tools: Read, Write, Edit, Glob, Grep, TodoWrite
 ### Testing and Validation
 1. Test with context-aware orchestrator
 2. Verify incremental documentation updates
-3. Validate .NET 9 specific outputs
+3. Validate .NET 10 specific outputs
 4. Ensure manufacturing scenario compatibility
 5. Check token efficiency improvements

@@ -4,7 +4,7 @@ This example demonstrates adding real-time notifications using SignalR to an exi
 
 ## Project Overview
 
-**Scenario**: Add real-time inventory tracking and notifications to an existing .NET 9 manufacturing system to provide live updates to operators and managers across multiple facilities.
+**Scenario**: Add real-time inventory tracking and notifications to an existing .NET 10 manufacturing system to provide live updates to operators and managers across multiple facilities.
 
 **Enhancement**: Real-time inventory level notifications, automatic alerts for low stock, live dashboard updates
 **Business Value**: Improved operational efficiency, reduced stockouts, better visibility
@@ -27,7 +27,7 @@ This example demonstrates adding real-time notifications using SignalR to an exi
 ## Existing Project State
 
 The workflow system detected a mature project with:
-- ✅ Established .NET 9 Web API with Clean Architecture
+- ✅ Established .NET 10 Web API with Clean Architecture
 - ✅ Entity Framework Core with inventory entities
 - ✅ Azure AD B2C authentication and role-based authorization  
 - ✅ MES integration patterns already implemented

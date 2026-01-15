@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Claude Sub-Agent Spec Workflow System - A context-aware AI-driven development workflow system optimized for .NET 9 development. This system transforms project ideas into production-ready applications through specialized AI agents that understand existing project state and work in intelligent, coordinated phases with organized documentation structure.
+Claude Sub-Agent Spec Workflow System - A context-aware AI-driven development workflow system optimized for .NET 10 development. This system transforms project ideas into production-ready applications through specialized AI agents that understand existing project state and work in intelligent, coordinated phases with organized documentation structure.
 
 ## Project Documentation Conventions (Important)
 
@@ -61,7 +61,7 @@ docs/
 
 ```bash
 # New Project (Full workflow)
-/agent-workflow "Create a .NET 9 Web API for manufacturing inventory with Clean Architecture and Azure deployment"
+/agent-workflow "Create a .NET 10 Web API for manufacturing inventory with Clean Architecture and Azure deployment"
 
 # Bug Fix (Targeted workflow)  
 /agent-workflow "The user authentication is failing after Azure AD B2C integration"
@@ -85,20 +85,20 @@ Use database-specialist: Design manufacturing database patterns with historian i
 Use spec-developer: Implement targeted bug fixes following existing code patterns
 ```
 
-### Quality Gates and Testing (.NET 9 Enhanced)
+### Quality Gates and Testing (.NET 10 Enhanced)
 
 ```bash
-# The system includes three automated quality gates optimized for .NET 9:
+# The system includes three automated quality gates optimized for .NET 10:
 # Gate 1: Planning Quality (95% threshold) - Clean Architecture feasibility, EF Core models
 # Gate 2: Development Quality (90% threshold) - Code quality, xUnit coverage, security
 # Gate 3: Production Readiness (85% threshold) - Azure deployment, monitoring, documentation
 
 # Manual validation with .NET focus
-Use spec-validator: Evaluate .NET 9 code quality with Clean Architecture compliance scoring
+Use spec-validator: Evaluate .NET 10 code quality with Clean Architecture compliance scoring
 Use spec-tester: Generate xUnit test suite with integration tests and proper mocking patterns
 ```
 
-### Project Structure Operations (.NET 9)
+### Project Structure Operations (.NET 10)
 
 ```bash
 # Initialize context-aware project structure
@@ -106,7 +106,7 @@ mkdir -p .claude/{agents,commands,docs/{project,architecture,iterations,current,
 cp agents/*/*.md .claude/agents/
 cp commands/agent-workflow.md .claude/commands/
 
-# .NET 9 project structure (follows Clean Architecture)
+# .NET 10 project structure (follows Clean Architecture)
 src/
 ├── Domain/                           # Entities, Value Objects, Domain Services
 ├── Application/                      # Use Cases, DTOs, Application Services  
@@ -140,29 +140,29 @@ The system follows an intelligent, context-aware approach that analyzes existing
 
 3. **Quality Validation Phase (10-15% of project time)**
    - Context-aware validation based on change type
-   - .NET 9 specific quality criteria
+   - .NET 10 specific quality criteria
    - Azure deployment readiness assessment
    - Limited retries (max 2) to prevent token waste
 
-### Agent Categories (.NET 9 Specialized)
+### Agent Categories (.NET 10 Specialized)
 
 **Context-Aware Workflow Agents**
 
-- spec-orchestrator: .NET 9 workflow coordination with request classification
+- spec-orchestrator: .NET 10 workflow coordination with request classification
 - spec-analyst: Requirements analysis with C# domain modeling expertise
-- spec-architect: Clean Architecture design for .NET 9 with EF Core and Azure
+- spec-architect: Clean Architecture design for .NET 10 with EF Core and Azure
 - **database-specialist: Manufacturing database expertise (auto-included for database-intensive requests)**
-- spec-developer: Modern C# 13 implementation with ASP.NET Core patterns
+- spec-developer: Modern C# 14 implementation with ASP.NET Core patterns
 - spec-validator: .NET quality validation with security and performance focus
 - spec-tester: xUnit testing with integration and mocking best practices
 
-**Domain Specialists (.NET 9)**
+**Domain Specialists (.NET 10)**
 
 - senior-frontend-architect: Razor Pages/MVC/Blazor Server/WebAssembly expert
-- senior-backend-architect: .NET 9 backend systems and microservices
+- senior-backend-architect: .NET 10 backend systems and microservices
 - ui-ux-master: Blazor component design and accessibility
 
-### Quality Framework (.NET 9)
+### Quality Framework (.NET 10)
 
 Each phase includes .NET-specific automated quality gates:
 
@@ -197,7 +197,7 @@ Agents now communicate through context-aware structured artifacts:
 - Orchestrator manages context sharing between agents
 - Quality gates provide .NET-specific feedback for improvements
 
-## Expected Output Structure (.NET 9 Clean Architecture)
+## Expected Output Structure (.NET 10 Clean Architecture)
 
 ```
 project/
@@ -213,7 +213,7 @@ project/
 │   │   └── archive/                      # Historical documentation
 │   ├── agents/                           # Context-aware specialized agents
 │   └── commands/                         # Enhanced workflow commands
-├── src/                                  # .NET 9 Clean Architecture
+├── src/                                  # .NET 10 Clean Architecture
 │   ├── Domain/                           # Business entities and rules
 │   │   ├── Entities/
 │   │   ├── ValueObjects/
@@ -276,7 +276,7 @@ The system uses intelligent sub-agent chaining based on context:
 ```
 First use the spec-orchestrator sub agent to analyze existing docs/ structure and classify request type, 
 then based on classification: for NEW_PROJECT execute full chain (spec-analyst → spec-architect → [database-specialist if database-intensive] → spec-developer → spec-validator → spec-tester), for BUG_FIX execute targeted chain (spec-analyst analysis → [database-specialist if performance/query issues] → spec-developer fixes → spec-validator regression), for 
-ENHANCEMENT execute selective chain (spec-analyst updates → spec-architect if needed → [database-specialist if database changes] → spec-developer → spec-validator → spec-tester), for REFACTOR execute optimization chain (spec-architect review → [database-specialist if database optimization] → spec-developer refactor → spec-validator compliance), with quality gates using .NET 9 specific criteria and maximum 2 retry iterations.
+ENHANCEMENT execute selective chain (spec-analyst updates → spec-architect if needed → [database-specialist if database changes] → spec-developer → spec-validator → spec-tester), for REFACTOR execute optimization chain (spec-architect review → [database-specialist if database optimization] → spec-developer refactor → spec-validator compliance), with quality gates using .NET 10 specific criteria and maximum 2 retry iterations.
 ```
 
 ### Enhanced Quality Gate Mechanism
@@ -284,7 +284,7 @@ ENHANCEMENT execute selective chain (spec-analyst updates → spec-architect if 
 - **Context-Aware Validation**: Different criteria based on request type
 - **Validation Score ≥90%**: Proceed to next phase (raised from 85%)
 - **Validation Score <90%**: Targeted feedback with maximum 2 iterations
-- **.NET 9 Specific Metrics**: Clean Architecture, EF Core, security, performance
+- **.NET 10 Specific Metrics**: Clean Architecture, EF Core, security, performance
 - **Token Efficiency**: Avoid full workflow restarts through targeted improvements
 
 ## Best Practices
@@ -297,7 +297,7 @@ ENHANCEMENT execute selective chain (spec-analyst updates → spec-architect if 
 - **Maintain Current State**: Keep `current/` folder updated with active work and issues
 - **Review Recent Changes**: Check `recent-changes.md` to understand project evolution
 
-### For .NET 9 Development
+### For .NET 10 Development
 
 - **Follow Clean Architecture**: Use established layer separation and dependency flow
 - **Entity Framework Best Practices**: Optimize queries, use proper change tracking
@@ -329,7 +329,7 @@ ENHANCEMENT execute selective chain (spec-analyst updates → spec-architect if 
 - **Document Chaos**: Migrate existing docs using structured organization
 - **Agent Confusion**: Check that `docs/` structure exists and has current state
 
-### .NET 9 Specific Issues
+### .NET 10 Specific Issues
 
 - **Clean Architecture Violations**: Review architecture compliance in validation reports
 - **Entity Framework Performance**: Check query analysis and implement proper patterns
@@ -349,7 +349,7 @@ Enable comprehensive debugging for complex issues:
 The enhanced system integrates with:
 
 - **GitHub Actions**: Context-aware CI/CD validation based on change type
-- **Azure DevOps**: .NET 9 build pipelines with quality gate integration
+- **Azure DevOps**: .NET 10 build pipelines with quality gate integration
 - **Visual Studio**: Roslyn analyzer integration for code quality
 - **Entity Framework**: Migration and performance optimization
 - **Azure Services**: App Service, Key Vault, Application Insights integration
@@ -402,7 +402,7 @@ For manufacturing facility deployments across US operations:
    ```
 
 4. **Meaningful Commit Messages (Aligned with Request Types)**
-   - **NEW_PROJECT**: "Initial: Set up Clean Architecture with .NET 9 foundation"
+   - **NEW_PROJECT**: "Initial: Set up Clean Architecture with .NET 10 foundation"
    - **BUG_FIX**: "Fix: Resolve null reference in UserService authentication"
    - **ENHANCEMENT**: "Feature: Add SignalR real-time notifications to dashboard"
    - **REFACTOR**: "Refactor: Optimize EF Core queries for 40% performance gain"
@@ -484,7 +484,7 @@ git commit -m "Progress: [v3-signalr] Implement client-side connection handling"
 git commit -m "Complete: [v3-signalr] SignalR real-time notifications ready for testing"
 ```
 
-#### 2. **.NET 9 Quality Gate Commits**
+#### 2. **.NET 10 Quality Gate Commits**
 ```bash
 # Before each quality gate
 git commit -m "Pre-Gate: [v3] Code complete, ready for development quality validation"
@@ -535,7 +535,7 @@ For manufacturing systems, split commits based on:
 ```bash
 # Pre-commit validation aligned with quality gates
 git add -A
-dotnet build --no-restore  # Verify .NET 9 compilation
+dotnet build --no-restore  # Verify .NET 10 compilation
 dotnet test --no-build     # Run xUnit test suite
 dotnet format --verify-no-changes  # Code formatting check
 

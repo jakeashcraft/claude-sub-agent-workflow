@@ -52,7 +52,7 @@ We welcome code contributions in these areas:
 
 - **New Specialized Agents**: Domain-specific agents for manufacturing, compliance, etc.
 - **Workflow Improvements**: Better context awareness, agent selection logic
-- **Quality Gates**: Enhanced validation criteria for .NET 9 projects
+- **Quality Gates**: Enhanced validation criteria for .NET 10 projects
 - **Documentation**: Examples, tutorials, best practices
 - **Integration**: CI/CD, Azure DevOps, manufacturing systems
 
@@ -61,7 +61,7 @@ We welcome code contributions in these areas:
 ### Prerequisites
 
 - Claude Code (latest version with Sub-Agents support)
-- .NET 9 SDK (for .NET projects)
+- .NET 10 SDK (for .NET projects)
 - Git for version control
 - Understanding of Clean Architecture principles
 - Basic knowledge of manufacturing software requirements (for domain-specific contributions)
@@ -97,12 +97,12 @@ We welcome code contributions in these areas:
 
 ## Development Guidelines
 
-### .NET 9 Standards
+### .NET 10 Standards
 
 All .NET-related contributions must follow:
 
 - **Clean Architecture** principles with proper layer separation
-- **Modern C# 13** features and patterns
+- **Modern C# 14** features and patterns
 - **Entity Framework Core** best practices for data access
 - **ASP.NET Core** patterns for web APIs
 - **xUnit** testing framework for all test code
@@ -145,7 +145,7 @@ Brief description of the agent's purpose and expertise
 
 ## Capabilities
 - Primary skills and knowledge areas
-- .NET 9 specific optimizations
+- .NET 10 specific optimizations
 - Manufacturing domain expertise (if applicable)
 
 ## Input Requirements
@@ -224,7 +224,7 @@ Each agent must have:
 1. **Agent Unit Tests**: Test individual agent logic and outputs
 2. **Workflow Integration Tests**: Test complete agent chains
 3. **Context Awareness Tests**: Verify incremental documentation updates
-4. **Quality Gate Tests**: Validate .NET 9 quality criteria
+4. **Quality Gate Tests**: Validate .NET 10 quality criteria
 5. **Manufacturing Domain Tests**: Test industry-specific scenarios
 
 ### Test Requirements

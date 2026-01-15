@@ -1,7 +1,7 @@
 # Claude Code configuration (optional - can be checked in for shared workflows)
 # .claude/
 
-# .NET Core / .NET 9
+# .NET Core / .NET 10
 bin/
 obj/
 out/

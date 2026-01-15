@@ -1,8 +1,8 @@
-# Context-Aware .NET 9 Spec Agent Workflow - Usage Guide
+# Context-Aware .NET 10 Spec Agent Workflow - Usage Guide
 
 ## Overview
 
-The Context-Aware .NET 9 Spec Agent Workflow System revolutionizes enterprise development through intelligent project state analysis and specialized agents optimized for Clean Architecture, Entity Framework Core, and Azure deployment. This guide provides practical examples demonstrating how context awareness eliminates token waste and document chaos while delivering production-ready applications.
+The Context-Aware .NET 10 Spec Agent Workflow System revolutionizes enterprise development through intelligent project state analysis and specialized agents optimized for Clean Architecture, Entity Framework Core, and Azure deployment. This guide provides practical examples demonstrating how context awareness eliminates token waste and document chaos while delivering production-ready applications.
 
 **Revolutionary Change**: Unlike traditional workflows that regenerate everything, this system analyzes existing project context and executes only necessary agents, reducing token usage by 70% while maintaining enterprise quality standards.
 
@@ -37,8 +37,8 @@ The Context-Aware .NET 9 Spec Agent Workflow System revolutionizes enterprise de
 ### New Project Setup
 
 ```bash
-# Complete .NET 9 application with Clean Architecture
-/agent-workflow "Create .NET 9 Web API for manufacturing inventory management with multi-facility support, Azure deployment, and FDA compliance tracking"
+# Complete .NET 10 application with Clean Architecture
+/agent-workflow "Create .NET 10 Web API for manufacturing inventory management with multi-facility support, Azure deployment, and FDA compliance tracking"
 # → Classification: NEW_PROJECT
 # → Database-intensive keywords detected: "manufacturing", "FDA compliance"
 # → Full Agent Chain: All 7 agents execute complete workflow (includes database-specialist)
@@ -72,9 +72,9 @@ your-project/
 │   │   │   ├── known-issues.md
 │   │   │   └── recent-changes.md
 │   │   └── archive/                    # Historical docs
-│   ├── agents/                         # Context-aware .NET 9 agents
+│   ├── agents/                         # Context-aware .NET 10 agents
 │   └── commands/                       # Enhanced workflow commands
-├── src/                                # Clean Architecture .NET 9 code
+├── src/                                # Clean Architecture .NET 10 code
 │   ├── Domain/
 │   ├── Application/
 │   ├── Infrastructure/
@@ -92,7 +92,7 @@ your-project/
 ### Example 1: Context-Aware Bug Fix (Token Efficient)
 
 ```markdown
-**Scenario**: Authentication failure in existing .NET 9 application
+**Scenario**: Authentication failure in existing .NET 10 application
 
 **Traditional Approach Problems**:
 - Regenerates all requirements documentation
@@ -165,12 +165,12 @@ Input: /agent-workflow "Add real-time production line monitoring dashboard with 
 - ✅ Token efficient - only updated necessary documentation
 ```
 
-### Example 3: Enterprise Multi-Facility .NET 9 System
+### Example 3: Enterprise Multi-Facility .NET 10 System
 
 ```markdown
 **Scenario**: New enterprise application for manufacturing
 
-Input: /agent-workflow "Create comprehensive .NET 9 enterprise system for managing production across 5 US manufacturing facilities with inventory tracking, quality control, FDA compliance reporting, and Azure multi-region deployment"
+Input: /agent-workflow "Create comprehensive .NET 10 enterprise system for managing production across 5 US manufacturing facilities with inventory tracking, quality control, FDA compliance reporting, and Azure multi-region deployment"
 
 **Full Workflow Execution** (NEW_PROJECT):
 
@@ -233,7 +233,7 @@ Input: /agent-workflow "Create comprehensive .NET 9 enterprise system for managi
    ```
 
 **Results**:
-- ✅ Production-ready .NET 9 enterprise application
+- ✅ Production-ready .NET 10 enterprise application
 - ✅ Clean Architecture with proper separation of concerns
 - ✅ Multi-facility tenant isolation and data segregation
 - ✅ FDA compliance tracking and audit trail capabilities
@@ -424,7 +424,7 @@ REFACTOR Quality Criteria:
 #### Gate 2: Development Excellence (90% threshold - .NET Specialized)
 
 ```yaml
-All Request Types - .NET 9 Implementation Quality:
+All Request Types - .NET 10 Implementation Quality:
   - C# code quality (Roslyn analyzers, StyleCop, nullable types): ≥92%
   - Clean Architecture layer compliance: ≥90%
   - Entity Framework Core performance patterns: ≥88%
@@ -437,7 +437,7 @@ All Request Types - .NET 9 Implementation Quality:
 
 ```yaml
 Azure Deployment and Operations Readiness:
-  - Overall .NET 9 quality score aggregation: ≥85%
+  - Overall .NET 10 quality score aggregation: ≥85%
   - Azure App Service configuration validation: ≥88%
   - Application Insights telemetry setup: ≥85%
   - Key Vault secrets management integration: ≥92%
@@ -725,12 +725,12 @@ stages:
 
 ## Conclusion: Transforming Enterprise Development
 
-The Context-Aware .NET 9 Spec Agent Workflow System represents a fundamental shift from wasteful, linear AI development to intelligent, adaptive enterprise software creation. By understanding project context and executing only necessary work, it delivers:
+The Context-Aware .NET 10 Spec Agent Workflow System represents a fundamental shift from wasteful, linear AI development to intelligent, adaptive enterprise software creation. By understanding project context and executing only necessary work, it delivers:
 
 **Immediate Benefits**:
 - 70% reduction in token usage for iterative development
 - Elimination of document chaos through organized iteration management
-- Production-ready .NET 9 applications with Clean Architecture
+- Production-ready .NET 10 applications with Clean Architecture
 - Enterprise compliance integration for regulated manufacturing environments
 
 **Long-term Value**:

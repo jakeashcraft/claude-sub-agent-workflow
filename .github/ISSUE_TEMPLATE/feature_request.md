@@ -60,7 +60,7 @@ Describe specific scenarios where this feature would be valuable:
 - **Quality Gates**: [What quality criteria would this introduce/modify]
 - **Documentation**: [What documentation would be created/updated]
 
-### .NET 9 Integration (if applicable)
+### .NET 10 Integration (if applicable)
 - **Clean Architecture**: [How this fits into Clean Architecture patterns]
 - **Entity Framework**: [Database/ORM considerations]
 - **ASP.NET Core**: [Web API/MVC considerations]

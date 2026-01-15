@@ -14,12 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Iteration Management**: Version-controlled changes with dedicated iteration folders
 - **Smart Agent Selection**: Intelligent selection of minimal necessary agents based on request type
 - **Database Specialist Agent**: Manufacturing database expert for historian integration and FDA compliance
-- **Enhanced Quality Gates**: .NET 9 specific validation with 95%/90%/85% thresholds
+- **Enhanced Quality Gates**: .NET 10 specific validation with 95%/90%/85% thresholds
 - **Manufacturing Domain Focus**: Built-in support for MES, SCADA, ERP integration patterns
 - **Azure-Ready Deployment**: Production-ready configurations for Azure App Service/AKS
 - **Token Efficiency**: Optimized token usage through context awareness
 - **Core Agents**: spec-orchestrator, spec-analyst, spec-architect, spec-developer, spec-validator, spec-tester
-- **.NET 9 Support**: Modern C# 13 features and Clean Architecture patterns
+- **.NET 10 Support**: Modern C# 13 features and Clean Architecture patterns
 - **Multi-Facility Support**: Patterns for distributed manufacturing operations
 
 ### Repository Enhancements
@@ -83,7 +83,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this 
 ### Initial Development Contributors
 - Context-aware workflow architecture design
 - Manufacturing domain expertise integration
-- .NET 9 optimization and modernization
+- .NET 10 optimization and modernization
 - Documentation structure organization
 - Quality gate enhancement
 - Repository setup and discoverability improvements

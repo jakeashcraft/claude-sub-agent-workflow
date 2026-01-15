@@ -28,7 +28,7 @@ This example demonstrates fixing an authentication issue using the context-aware
 
 The workflow system detected an existing project with:
 - ✅ Organized `docs/` structure with 3 previous iterations
-- ✅ Active .NET 9 Web API with Clean Architecture
+- ✅ Active .NET 10 Web API with Clean Architecture
 - ✅ Recent Azure AD B2C integration (iteration v3-azure-auth)
 - ✅ Production deployment with Application Insights logging
 - ⚠️ Known issue: Authentication errors in `docs/current/known-issues.md`

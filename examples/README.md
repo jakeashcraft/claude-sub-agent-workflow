@@ -5,7 +5,7 @@ This directory contains practical examples demonstrating the Claude Sub-Agent Sp
 ## Example Categories
 
 ### 🏭 Manufacturing Industry Examples
-- **[Manufacturing Inventory System](manufacturing-inventory-system/)** - Complete new .NET 9 project for multi-facility inventory management
+- **[Manufacturing Inventory System](manufacturing-inventory-system/)** - Complete new .NET 10 project for multi-facility inventory management
 - **[Quality Management System](quality-management-system/)** - FDA-compliant quality system with audit trails
 - **[Production Monitoring Dashboard](production-monitoring/)** - Real-time manufacturing dashboard with historian integration
 
@@ -82,7 +82,7 @@ example-name/
 
 ### Prerequisites
 - Claude Code with Sub-Agents support
-- .NET 9 SDK (for .NET examples)
+- .NET 10 SDK (for .NET examples)
 - Basic understanding of manufacturing software (for industry examples)
 
 ### Quick Start
@@ -135,7 +135,7 @@ cd examples/enhancement-signalr/
 - **ISO 22000**: Food safety management system
 - **SOX Compliance**: Financial controls and audit trails
 
-## .NET 9 Technical Examples
+## .NET 10 Technical Examples
 
 ### Clean Architecture
 - Domain-driven design patterns
@@ -183,7 +183,7 @@ We welcome new examples that demonstrate:
 
 ## Example Index
 
-| Example | Type | Industry | Complexity | .NET 9 | Azure |
+| Example | Type | Industry | Complexity | .NET 10 | Azure |
 |---------|------|----------|------------|--------|-------|
 | Manufacturing Inventory | NEW_PROJECT | Manufacturing | High | ✅ | ✅ |
 | Authentication Bug Fix | BUG_FIX | General | Low | ✅ | ❌ |

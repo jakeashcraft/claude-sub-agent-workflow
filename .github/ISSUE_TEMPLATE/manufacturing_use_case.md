@@ -151,7 +151,7 @@ Describe a typical manufacturing process that the software would support:
 - **Security Infrastructure**: [e.g., Active Directory, VPN, firewalls]
 
 ### Preferred Technology Stack
-- **Development Platform**: [e.g., .NET 9, Java, Python]
+- **Development Platform**: [e.g., .NET 10, Java, Python]
 - **Database**: [e.g., SQL Server, PostgreSQL, Oracle]
 - **Cloud Platform**: [e.g., Azure, AWS, on-premise]
 - **Architecture Pattern**: [e.g., Clean Architecture, microservices, monolithic]
